@@ -1,0 +1,50 @@
+import { useState } from 'react'
+import reactLogo from './assets/react.svg'
+import viteLogo from '/vite.svg'
+import './App.css'
+import Layout from './components/Layout'
+
+function App() {
+  const [count, setCount] = useState(0)
+
+  return (
+    <Layout>
+      
+      <div className="grid grid-cols-4 gap-4">
+        <div>%</div>
+        <div>CE</div>
+        <div>C</div>
+        <div>backdpace </div>
+
+        <div>1/x</div>
+        <div>X²</div>
+        <div>2√X</div>
+        <div>÷ </div>
+
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <div>x </div>
+
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>- </div>
+
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>+ </div>
+
+        <div>+/-</div>
+        <div>0</div>
+        <div>.</div>
+        <div>= </div>
+
+      </div>
+    </Layout>
+
+  )
+}
+
+export default App
