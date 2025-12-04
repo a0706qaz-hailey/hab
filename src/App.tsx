@@ -1,4 +1,4 @@
-import { useState } from 'react'
+//import { useState } from 'react'
 import './App.css'
 import Layout from './components/Layout'
 
@@ -12,10 +12,12 @@ function App() {
     "+", "0", ".", "=",
   ];
 
-  const [count, setCount] = useState(0)
+  //const [count, setCount] = useState(0)
 
   return (
     <Layout>
+
+      <input type="text" id="myTextbox" className='grid grid-cols-4 bg-gray-100 p-4 rounded-xl shadow-2xl max-w-sm mx-auto' />
 
       <div className="grid grid-cols-4 gap-4">
 
